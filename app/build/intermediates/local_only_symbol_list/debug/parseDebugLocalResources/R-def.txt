@@ -1,0 +1,6 @@
+R_DEF: Internal format may change without notice
+local
+drawable ic_eye
+drawable ic_eye_off
+drawable ic_launcher
+style Theme.Digii

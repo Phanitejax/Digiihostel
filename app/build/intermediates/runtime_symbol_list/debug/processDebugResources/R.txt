@@ -1,0 +1,4 @@
+int drawable ic_eye 0x7f010000
+int drawable ic_eye_off 0x7f010001
+int drawable ic_launcher 0x7f010002
+int style Theme_Digii 0x7f020000

@@ -1,0 +1,76 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.digiihostel.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <application
+11-->C:\Users\venka\OneDrive\Desktop\Digiihostel6\app\src\main\AndroidManifest.xml:3:5-23:19
+12        android:allowBackup="true"
+12-->C:\Users\venka\OneDrive\Desktop\Digiihostel6\app\src\main\AndroidManifest.xml:4:9-35
+13        android:debuggable="true"
+14        android:extractNativeLibs="false"
+15        android:icon="@drawable/ic_launcher"
+15-->C:\Users\venka\OneDrive\Desktop\Digiihostel6\app\src\main\AndroidManifest.xml:5:9-45
+16        android:label="Digiihostel"
+16-->C:\Users\venka\OneDrive\Desktop\Digiihostel6\app\src\main\AndroidManifest.xml:6:9-36
+17        android:testOnly="true"
+18        android:theme="@style/Theme.Digii" >
+18-->C:\Users\venka\OneDrive\Desktop\Digiihostel6\app\src\main\AndroidManifest.xml:7:9-43
+19        <activity
+19-->C:\Users\venka\OneDrive\Desktop\Digiihostel6\app\src\main\AndroidManifest.xml:8:9-13:20
+20            android:name="com.digiihostel.app.LoginActivity"
+20-->C:\Users\venka\OneDrive\Desktop\Digiihostel6\app\src\main\AndroidManifest.xml:8:19-48
+21            android:exported="true" >
+21-->C:\Users\venka\OneDrive\Desktop\Digiihostel6\app\src\main\AndroidManifest.xml:8:49-72
+22            <intent-filter>
+22-->C:\Users\venka\OneDrive\Desktop\Digiihostel6\app\src\main\AndroidManifest.xml:9:13-12:29
+23                <action android:name="android.intent.action.MAIN" />
+23-->C:\Users\venka\OneDrive\Desktop\Digiihostel6\app\src\main\AndroidManifest.xml:10:17-69
+23-->C:\Users\venka\OneDrive\Desktop\Digiihostel6\app\src\main\AndroidManifest.xml:10:25-66
+24
+25                <category android:name="android.intent.category.LAUNCHER" />
+25-->C:\Users\venka\OneDrive\Desktop\Digiihostel6\app\src\main\AndroidManifest.xml:11:17-77
+25-->C:\Users\venka\OneDrive\Desktop\Digiihostel6\app\src\main\AndroidManifest.xml:11:27-74
+26            </intent-filter>
+27        </activity>
+28        <activity
+28-->C:\Users\venka\OneDrive\Desktop\Digiihostel6\app\src\main\AndroidManifest.xml:14:9-97
+29            android:name="com.digiihostel.app.RegisterActivity"
+29-->C:\Users\venka\OneDrive\Desktop\Digiihostel6\app\src\main\AndroidManifest.xml:14:19-51
+30            android:windowSoftInputMode="adjustResize" />
+30-->C:\Users\venka\OneDrive\Desktop\Digiihostel6\app\src\main\AndroidManifest.xml:14:52-94
+31        <activity android:name="com.digiihostel.app.DashboardActivity" />
+31-->C:\Users\venka\OneDrive\Desktop\Digiihostel6\app\src\main\AndroidManifest.xml:15:9-55
+31-->C:\Users\venka\OneDrive\Desktop\Digiihostel6\app\src\main\AndroidManifest.xml:15:19-52
+32        <activity android:name="com.digiihostel.app.RecordsActivity" />
+32-->C:\Users\venka\OneDrive\Desktop\Digiihostel6\app\src\main\AndroidManifest.xml:16:9-53
+32-->C:\Users\venka\OneDrive\Desktop\Digiihostel6\app\src\main\AndroidManifest.xml:16:19-50
+33        <activity android:name="com.digiihostel.app.OutpassActivity" />
+33-->C:\Users\venka\OneDrive\Desktop\Digiihostel6\app\src\main\AndroidManifest.xml:17:9-53
+33-->C:\Users\venka\OneDrive\Desktop\Digiihostel6\app\src\main\AndroidManifest.xml:17:19-50
+34        <activity android:name="com.digiihostel.app.IdCardActivity" />
+34-->C:\Users\venka\OneDrive\Desktop\Digiihostel6\app\src\main\AndroidManifest.xml:18:9-52
+34-->C:\Users\venka\OneDrive\Desktop\Digiihostel6\app\src\main\AndroidManifest.xml:18:19-49
+35        <activity android:name="com.digiihostel.app.HostelsActivity" />
+35-->C:\Users\venka\OneDrive\Desktop\Digiihostel6\app\src\main\AndroidManifest.xml:19:9-53
+35-->C:\Users\venka\OneDrive\Desktop\Digiihostel6\app\src\main\AndroidManifest.xml:19:19-50
+36        <activity android:name="com.digiihostel.app.FoodActivity" />
+36-->C:\Users\venka\OneDrive\Desktop\Digiihostel6\app\src\main\AndroidManifest.xml:20:9-50
+36-->C:\Users\venka\OneDrive\Desktop\Digiihostel6\app\src\main\AndroidManifest.xml:20:19-47
+37        <activity android:name="com.digiihostel.app.AdminStudentsActivity" />
+37-->C:\Users\venka\OneDrive\Desktop\Digiihostel6\app\src\main\AndroidManifest.xml:21:9-59
+37-->C:\Users\venka\OneDrive\Desktop\Digiihostel6\app\src\main\AndroidManifest.xml:21:19-56
+38        <activity
+38-->C:\Users\venka\OneDrive\Desktop\Digiihostel6\app\src\main\AndroidManifest.xml:22:9-103
+39            android:name="com.digiihostel.app.AccountManagerActivity"
+39-->C:\Users\venka\OneDrive\Desktop\Digiihostel6\app\src\main\AndroidManifest.xml:22:19-57
+40            android:windowSoftInputMode="adjustResize" />
+40-->C:\Users\venka\OneDrive\Desktop\Digiihostel6\app\src\main\AndroidManifest.xml:22:58-100
+41    </application>
+42
+43</manifest>

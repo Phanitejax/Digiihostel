@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.digiihostel.app-debug-4:/drawable_ic_launcher.xml.flat",
+        "source": "com.digiihostel.app-main-6:/drawable/ic_launcher.xml"
+    },
+    {
+        "merged": "com.digiihostel.app-debug-4:/drawable_ic_eye_off.xml.flat",
+        "source": "com.digiihostel.app-main-6:/drawable/ic_eye_off.xml"
+    },
+    {
+        "merged": "com.digiihostel.app-debug-4:/drawable_ic_eye.xml.flat",
+        "source": "com.digiihostel.app-main-6:/drawable/ic_eye.xml"
+    }
+]

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.digiihostel.app"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="24"
+        android:targetSdkVersion="34" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="Digiihostel"
+        android:testOnly="true"
+        android:theme="@style/Theme.Digii" >
+        <activity
+            android:name="com.digiihostel.app.LoginActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.digiihostel.app.RegisterActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name="com.digiihostel.app.DashboardActivity" />
+        <activity android:name="com.digiihostel.app.RecordsActivity" />
+        <activity android:name="com.digiihostel.app.OutpassActivity" />
+        <activity android:name="com.digiihostel.app.IdCardActivity" />
+        <activity android:name="com.digiihostel.app.HostelsActivity" />
+        <activity android:name="com.digiihostel.app.FoodActivity" />
+        <activity android:name="com.digiihostel.app.AdminStudentsActivity" />
+        <activity
+            android:name="com.digiihostel.app.AccountManagerActivity"
+            android:windowSoftInputMode="adjustResize" />
+    </application>
+
+</manifest>
